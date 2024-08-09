@@ -1,0 +1,19 @@
+.header-nav ul li a {
+  color: yellow;
+}
+.header-nav ul li a:hover {
+  color: white;
+}
+
+button {
+  background-color: red;
+}
+button::after {
+  content: attr(data-text);
+  display: block;
+  text-transform: uppercase;
+}
+
+#contact-form {
+  border: 2px dashed black;
+}/*# sourceMappingURL=style.css.map */
